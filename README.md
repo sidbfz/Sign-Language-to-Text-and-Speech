@@ -1,15 +1,12 @@
+Please use python 3.9.5 for this project to work properly.
+You might get keras.models could not be resolved error but you can still run the final_pred.py without issues. Simply install libraries in requirements.txt files and you are good to go.
+
 **Sign-Language-To-Text-and-Speech-Conversion**
 
 **ABSTRACT:** 
 
  Sign language is one of the oldest and most natural form of language for communication, hence we have come up with a real time method using neural networks for finger spelling based American sign language. Automatic human gesture recognition from camera images is an interesting topic for developing vision. We propose a convolution neural network (CNN) method to recognize hand gestures of human actions from an image captured by camera. The purpose is to recognize hand gestures of human task activities from a camera image. The position of hand and orientation are applied to obtain the training and testing data for the CNN. The hand is first passed through a filter and after the filter is applied where the hand is passed through a classifier which predicts the class of the hand gestures. Then the calibrated images are used to train CNN. 
  
- 
- The Final Outcome Of Our Project...
- 
- https://user-images.githubusercontent.com/99630855/201496149-e7004402-16b2-4d72-8e1a-ff20c422c565.mp4
-
-
 
 **Introduction:**
 
@@ -46,10 +43,6 @@ It uses electromechanical devices to provide exact hand configuration, and posit
 
 In vision-based methods, the computer webcam is the input device for observing the information of hands and/or fingers. The Vision Based methods require only a camera, thus realizing a natural interaction between humans and computers without the use of any extra devices, thereby reducing costs.  The main challenge of vision-based hand detection ranges from coping with the large variability of the human hand’s appearance due to a huge number of hand movements, to different skin-color possibilities as well as to the variations in viewpoints, scales, and speed of the camera capturing the scene. 
 
- 
-![Screenshot (224)](https://user-images.githubusercontent.com/99630855/201489523-0804652e-1a38-4242-ad69-8bfafb25f55a.png)
-
- 
 
 **Data pre-processing and Feature extraction:**
 
@@ -83,12 +76,6 @@ Mediapipe Landmark System:
 Now we get this landmark points and draw it in plain white background using opencv library 
 
 -By doing this we tackle the situation of background and lightning conditions because the mediapipe labrary will give us landmark points in any background and mostly in any lightning conditions. 
-
-
-![2022-10-31](https://user-images.githubusercontent.com/99630855/201489669-1b262755-23f8-4e02-91ba-393aa6482620.png)
-![2022-10-31 (1)](https://user-images.githubusercontent.com/99630855/201489673-08a8dad8-30a4-426a-8f62-02190416191d.png)
-
- ![hhee2022-10-31 (2)](https://user-images.githubusercontent.com/99630855/201496302-f67b360a-1ef5-4486-8ff7-cc56cee30b97.png)
 
 
 -we have collected 180 skeleton images of Alphabets from A to Z 
@@ -172,11 +159,6 @@ So when model will classify [aemnst] in one single class using mathematical oper
 
 -Finally, we got **97%** Accuracy (with and without clean background and proper lightning conditions) through our method. And if the background is clear and there is good lightning condition then we got even **99%** accurate results 
 
-![2022-11-01 (2)](https://user-images.githubusercontent.com/99630855/201489689-3adeacf0-ca19-471d-8942-cf7effc6296a.png)
-![2022-11-01 (3)](https://user-images.githubusercontent.com/99630855/201489695-d14822c4-3a48-41c3-9cde-8fac4d835f65.png)
-![2022-11-01 (4)](https://user-images.githubusercontent.com/99630855/201489697-168c8ca3-e4b3-4fc5-9e3a-97b239971c27.png)
-![2022-11-01 (5)](https://user-images.githubusercontent.com/99630855/201489700-78b38657-16c0-45ac-88ec-ef06ada7870e.png)
-
 **Text To Speech Translation:**
 
 The model translates known gestures into words. we have used pyttsx3 library to convert the recognized words into the appropriate speech. The text-to-speech output is a simple workaround, but it's a useful feature because it simulates a real-life dialogue. 
@@ -221,3 +203,5 @@ Python libraries: OpenCV, NumPy, Keras,mediapipe,Tensorflow
 ![sequence2](https://user-images.githubusercontent.com/99630855/201490230-b903c365-7a4c-4972-8268-5687060b9cd0.png)
 
  
+All credits to Devansh Raval and team. All of the project was done by them and I just modified the code as per my requirement and fixed some things that were preventing the project from running properly.
+Do checkout original project: https://github.com/Devansh-47/Sign-Language-To-Text-and-Speech-Conversion.

@@ -1,0 +1,16 @@
+# Core packages
+numpy>=1.19.5
+opencv-python>=4.5.4
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Hand tracking and gesture recognition
+mediapipe>=0.8.9
+cvzone>=1.5.6
+
+# Text-to-speech conversion
+pyttsx3>=2.90
+
+# For any Jupyter notebook functionality
+jupyter>=1.0.0
+matplotlib>=3.5.1
