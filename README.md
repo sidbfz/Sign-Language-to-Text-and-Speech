@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Please use python 3.9.5 for this project to work properly.
 You might get keras.models could not be resolved error but you can still run the final_pred.py without issues. Simply install libraries in requirements.txt files and you are good to go.
 
@@ -206,6 +205,3 @@ Python libraries: OpenCV, NumPy, Keras,mediapipe,Tensorflow
  
 All credits to Devansh Raval and team. All of the project was done by them and I just modified the code as per my requirement and fixed some things that were preventing the project from running properly.
 Do checkout original project: https://github.com/Devansh-47/Sign-Language-To-Text-and-Speech-Conversion.
-=======
-# Sign-Language-to-Text-and-Speech
->>>>>>> origin/main
